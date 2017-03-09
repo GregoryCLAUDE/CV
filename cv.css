@@ -1,34 +1,41 @@
 
 header  {
-	display: flex;
-
-	
-}
-
+	;
+	display: flex;}
+h3
+{
+		display: block;
+		font-size: large;
+		padding-bottom: 10%;
+		margin-bottom: 10%;
+	}
 header ul li{
 	list-style: none;
 }
-
 .me_contacter{
-margin-left: 20%;
-padding-right: : 30%;
+	margin-left: 20%;
+	padding-right: : 30%;
+	padding-top: 10%;
 } 
-
+.experience li {
+	display: block;
+	padding-bottom: 100%;
+	margin-bottom: 100%;
+}
+.descriptif {
+	display: flex;
+	justify-content: right;
+	margin-right: 100%;
+}
 h1
 {
-	display: block;
-	font-size : x-large;
+	margin: auto;
+	font-size : xx-large;
+	border: 5px solid;
 	text-align: center;
-
-
-
-
-
-
+	font-weight: bold;
 }
-h2
-{font-size : large;
-background: #1E2AD5}
-p 
-{font-size: normal
-}
+h2{
+	font-size : x-large;
+	border: 5px solid;
+	background: #1E2AD5}
