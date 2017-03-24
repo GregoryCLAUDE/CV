@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=0">
 		<title>Mon Curriculum Vitae</title>
 		<link rel="stylesheet" href="cv.css">
 		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -14,11 +14,19 @@
 			<div class="navbar navbar-inverse navbar-fixed-top">
 				<ul class="container">
 					<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=navbar aria-expanded="false" aria-controls="navbar">
+							<button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target=#bs-navbar aria-expanded="false" aria-controls="bs-navbar">
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
+							<a href="" class="navbar-brand"></a>
+						<nav class="navbar-collapse collapse" id="bs-navbar" aria-expanded="false">
+							<ul>
+								<li>Diplomes <a href="#diplome"></a></li>
+								<li>La Poste <a href="laposte.html"></a></li>
+								<li>Conducteur de ligne <a href="#ligne"></a></li>
+							</ul>
+						</nav>
 					</div>
 				</ul>
 			</div>
@@ -77,14 +85,14 @@
 						</div>
 						<div class="panel-body">
 								<ul>
-								<li>La Poste </li>
-								<li>Conducteur de ligne</li>
-								<li>comptable</li>
+								<li class="list-group-item">La Poste </li>
+								<li class="list-group-item">Conducteur de ligne</li>
+								<li class="list-group-item">comptable</li>
 							</ul>
 						</div>	
 					</div>
 				</div>	
-			<div class="col-md-4">
+			<div class="col-md-4" id="diplome">
 				<div class="panel panel-info">
 					<div class="panel-heading">
 						<h2 class="panel-title">Diplômes</h2>
@@ -160,5 +168,6 @@
 		</div>		
 		</body>
 	<footer>
+	<script src="node-modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	</footer>
 </html>
