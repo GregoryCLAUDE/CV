@@ -1,37 +1,53 @@
-img 
-{
-	width: 200px;
-	height: 200px;
-};
 
-h1
-{	
+h1{
 		position: center;
-
 }
 
-.title
-{
-background: #1E2AD5}
-
-.name {
-
+p{
+	font-size: normal;
+}
+.title{
+background: #1E2AD5;
 }
 
 .display	{
 	display: flex;
 }
-p 
-{font-size: normal
-}
-.icon {
-	width: 30px;
-	height: 30px;
-}
-.iconLink{
-	width: 40px;
-	height: 20px;
-}
+
 .jumbotron{
 	position: center;
+}
+
+.icon-lara{
+	max-width: 25%;
+}
+
+.img-responsive{
+	border: 0px;
+	max-width : 50%;
+	height: auto;
+}
+
+.icon-lara{
+	max-width: 40%;
+	height: auto;
+	margin-top: 30%;
+}
+
+.jquery
+{
+	max-width: 90%;
+	height: auto;
+	margin-top: 40%;
+}
+
+svg
+{
+	max-width: 95%;
+	height: auto;
+}
+
+li
+{
+	list-style-type:none;
 }
