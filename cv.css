@@ -1,49 +1,66 @@
-
-h1{
-		position: center;
+body{
+	font-size: 60px;
 }
 
 p{
 	font-size: normal;
 }
+
 .title{
 background: #1E2AD5;
 }
 
-.display	{
-	display: flex;
+.description{
+	position:  static;
+
+}
+.project
+{
+
+}
+i
+{
+
+	font-size: small;
 }
 
-.jumbotron{
+h1
+{
 	position: center;
+	font-size : 80%;
 }
 
-.icon-lara{
-	max-width: 25%;
-}
-
-.img-responsive{
-	border: 0px;
-	max-width : 50%;
-	height: auto;
-}
-
-.icon-lara{
-	max-width: 40%;
-	height: auto;
-	margin-top: 30%;
-}
-
-.jquery
+h2
 {
-	max-width: 90%;
-	height: auto;
-	margin-top: 40%;
+	font-size: 50%;
 }
 
-svg
+h3
 {
-	max-width: 95%;
+	font-size: 30%;
+}
+
+p
+{
+	font-size: 25%;
+}
+
+.language
+{
+	max-width: 100%;
+	height: auto;
+}
+
+.contact
+{
+	padding-top: -10%;
+	margin-top: -10%;
+}
+
+.icons
+{
+	font-size: small;
+	max-width: 5%;
 	height: auto;
 }
 
