@@ -1,23 +1,6 @@
 body{
 	font-size: 60px;
 }
-
-p{
-	font-size: normal;
-}
-
-.title{
-background: #1E2AD5;
-}
-
-.description{
-	position:  static;
-
-}
-.project
-{
-
-}
 i
 {
 
@@ -27,12 +10,13 @@ i
 h1
 {
 	position: center;
-	font-size : 80%;
+	font-size : 100%;
 }
 
 h2
 {
 	font-size: 50%;
+	line-height: 5%;
 }
 
 h3
@@ -43,6 +27,29 @@ h3
 p
 {
 	font-size: 25%;
+}
+
+p{
+	font-size: normal;
+}
+
+li
+{
+	list-style-type:none;
+}
+
+.title{
+background: #1E2AD5;
+}
+
+.description{
+	line-height: 69%;
+	position:  static;
+}
+
+.panel-title
+{
+	font-size: 50%;
 }
 
 .language
@@ -62,9 +69,4 @@ p
 	font-size: small;
 	max-width: 5%;
 	height: auto;
-}
-
-li
-{
-	list-style-type:none;
 }
